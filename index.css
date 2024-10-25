@@ -1,9 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 30px;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(135, 177, 163);
+  color: rgb(40, 66, 59);
+}
 .post {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  h2 {
-    margin: 0;
-    font-size: 18px;
-  }
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#postsContainer {
+  padding: 10px;
+  margin: 10px;
+}
+h2 {
+  margin: 0;
+  font-size: 18px;
+}
